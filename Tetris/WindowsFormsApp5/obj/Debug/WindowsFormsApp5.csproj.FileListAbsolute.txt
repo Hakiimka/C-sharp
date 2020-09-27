@@ -1,0 +1,29 @@
+C:\Users\Игорь\source\repos\WindowsFormsApp5\WindowsFormsApp5\bin\Debug\WindowsFormsApp5.exe.config
+C:\Users\Игорь\source\repos\WindowsFormsApp5\WindowsFormsApp5\bin\Debug\WindowsFormsApp5.exe
+C:\Users\Игорь\source\repos\WindowsFormsApp5\WindowsFormsApp5\bin\Debug\WindowsFormsApp5.pdb
+C:\Users\Игорь\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.csprojAssemblyReference.cache
+C:\Users\Игорь\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.Form1.resources
+C:\Users\Игорь\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.Properties.Resources.resources
+C:\Users\Игорь\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.csproj.GenerateResource.cache
+C:\Users\Игорь\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.exe
+C:\Users\Игорь\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.pdb
+I:\Malikov\1 ШАГ\С++\43\WindowsFormsApp5\WindowsFormsApp5\WindowsFormsApp5\bin\Debug\WindowsFormsApp5.exe.config
+I:\Malikov\1 ШАГ\С++\43\WindowsFormsApp5\WindowsFormsApp5\WindowsFormsApp5\bin\Debug\WindowsFormsApp5.exe
+I:\Malikov\1 ШАГ\С++\43\WindowsFormsApp5\WindowsFormsApp5\WindowsFormsApp5\bin\Debug\WindowsFormsApp5.pdb
+I:\Malikov\1 ШАГ\С++\43\WindowsFormsApp5\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.csprojAssemblyReference.cache
+I:\Malikov\1 ШАГ\С++\43\WindowsFormsApp5\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.Form1.resources
+I:\Malikov\1 ШАГ\С++\43\WindowsFormsApp5\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.Properties.Resources.resources
+I:\Malikov\1 ШАГ\С++\43\WindowsFormsApp5\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.csproj.GenerateResource.cache
+I:\Malikov\1 ШАГ\С++\43\WindowsFormsApp5\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.csproj.CoreCompileInputs.cache
+I:\Malikov\1 ШАГ\С++\43\WindowsFormsApp5\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.exe
+I:\Malikov\1 ШАГ\С++\43\WindowsFormsApp5\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.pdb
+C:\Users\zvere\Desktop\Tetris\WindowsFormsApp5\bin\Debug\WindowsFormsApp5.exe.config
+C:\Users\zvere\Desktop\Tetris\WindowsFormsApp5\bin\Debug\WindowsFormsApp5.exe
+C:\Users\zvere\Desktop\Tetris\WindowsFormsApp5\bin\Debug\WindowsFormsApp5.pdb
+C:\Users\zvere\Desktop\Tetris\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.csprojAssemblyReference.cache
+C:\Users\zvere\Desktop\Tetris\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.Form1.resources
+C:\Users\zvere\Desktop\Tetris\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.Properties.Resources.resources
+C:\Users\zvere\Desktop\Tetris\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.csproj.GenerateResource.cache
+C:\Users\zvere\Desktop\Tetris\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.csproj.CoreCompileInputs.cache
+C:\Users\zvere\Desktop\Tetris\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.exe
+C:\Users\zvere\Desktop\Tetris\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.pdb
