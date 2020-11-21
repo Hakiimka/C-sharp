@@ -1,0 +1,50 @@
+﻿<Window x:Class="WpfApp8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp8"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="8*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                
+            </Grid.ColumnDefinitions>
+
+            <TextBox x:Name="NameSound" KeyDown="TextBox_KeyDown" FontSize="26" Grid.Row="0" Margin="0,0,138,0" Grid.ColumnSpan="2" />
+            <StackPanel Grid.Column="1" Margin="273,0,0,0">
+                <RadioButton IsChecked="true" x:Name="artist" Content="По исполнителю"></RadioButton>
+                <RadioButton x:Name="name" Content="По названию" ></RadioButton>
+            </StackPanel>
+        </Grid>
+        <ListBox x:Name="ListName" Grid.Row="1"></ListBox>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"></ColumnDefinition>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="3*"></ColumnDefinition>
+                <ColumnDefinition Width="3*"></ColumnDefinition>
+                <ColumnDefinition Width="3*"></ColumnDefinition>
+                <ColumnDefinition Width="3*"></ColumnDefinition>
+
+            </Grid.ColumnDefinitions>
+            
+            <Button Click="Button_Click" Content="Скачать" Grid.Column="0" Grid.ColumnSpan="2"></Button>
+            <Button Click="Button_Click_1" Content="Скачать всё" Grid.Column="2"></Button>
+            <Button Click="PathButton_Click" x:Name="PathButton" Content="Выбрать путь" Grid.Column="3"></Button>
+            <TextBox x:Name="pathBox" Grid.Column="4" ></TextBox>
+
+            <ProgressBar x:Name="ProgressBar" Grid.Column="5"></ProgressBar>
+        </Grid>
+
+    </Grid>
+</Window>
