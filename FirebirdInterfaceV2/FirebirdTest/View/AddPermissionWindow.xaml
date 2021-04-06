@@ -1,0 +1,102 @@
+﻿<Window x:Class="FirebirdTest.View.AddPermissionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FirebirdTest.ViewModel"
+        mc:Ignorable="d"
+        Title="AddPermissionWindow" Height="300" Width="650" Loaded="Window_Loaded">
+    <Window.DataContext>
+        <local:PermissionAddViewModel></local:PermissionAddViewModel>
+    </Window.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="6*"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="0.3*"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="0" Grid.Column="0" FontSize="18">Пользователь</Label>
+        <Label Grid.Row="0" Grid.Column="1" FontSize="18">Доступные права</Label>
+        <Label Grid.Row="0" Grid.Column="3" FontSize="18">Выданные права</Label>
+
+        <Grid Grid.Row="1" Grid.Column="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button Command="{Binding DeleteButton}" Height="20" Margin="5" Content="←"></Button>
+            <Button Command="{Binding AddButton}" Grid.Column="1" Height="20" Margin="5" Content="→"></Button>
+        </Grid>
+        
+        
+        <Grid Margin="5" Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="1">
+                <Label Content="{Binding StaticUser.Id}"></Label>
+                <Label Content="{Binding StaticUser.Login}"></Label>
+                <Label Content="{Binding StaticUser.First_Name}"></Label>
+                <Label Content="{Binding StaticUser.Middle_Name}"></Label>
+                <Label Content="{Binding StaticUser.Last_Name}"></Label>
+            </StackPanel>
+
+            <StackPanel>
+                <Label>ID</Label>
+                <Label> Логин</Label>
+                <Label> Имя</Label>
+                <Label> Фамилия</Label>
+                <Label> Отчество</Label>
+            </StackPanel>
+            
+        </Grid>
+        
+        
+        <ListBox Grid.Column="3" Grid.Row="1" Margin="5" SelectedItem="{Binding Permission,UpdateSourceTrigger=PropertyChanged}" ItemsSource="{Binding AlreadyAddedPermissions}" >
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Label Content="{Binding Id}" Grid.Column="0"></Label>
+                        <StackPanel Margin="20" Grid.Column="1" Orientation="Vertical">
+                            <TextBlock Text="{Binding View_Model_Action}" />
+                            <TextBlock Text="{Binding User_Id}" />
+                            <TextBlock Text="{Binding Date_Expire}" />
+                            
+                        </StackPanel>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <ListBox  SelectedItem="{Binding VMAction,UpdateSourceTrigger=PropertyChanged}" Margin="5" ItemsSource="{Binding ActionsCollection}" Grid.Row="1" Grid.Column="1">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Label Content="{Binding View_Model}"></Label>
+                        <StackPanel Margin="20" Grid.Column="1" Orientation="Vertical">
+                            <TextBlock Text="{Binding Name}" />
+                        </StackPanel>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Grid Grid.Row="2" Grid.Column="3">
+            <Button Command="{Binding CancelButton}" Margin="5" Grid.Column="0">Закончить редактирование</Button>
+        </Grid>
+    </Grid>
+</Window>
