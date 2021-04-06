@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="FirebirdTest"
+                   namespace="FirebirdTest.Repositories">
+
+	<class name="TUI_PERMISSIONS">
+		<id name="Id">
+			<generator class="increment"/>
+		</id>
+		<property name="View_Model_Action"/>
+		<property name="User_Id"/>
+		<property name="Date_Expire"/>
+	</class>
+
+</hibernate-mapping>

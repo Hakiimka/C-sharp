@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="FirebirdTest"
+                   namespace="FirebirdTest.Repositories">
+
+	<class name="TUI_VIEW_MODELS">
+		<id name="Id">
+			<generator class="increment"/>
+		</id>
+		<property name="Parent"/>
+		<property name="Name"/>
+	</class>
+
+</hibernate-mapping>
